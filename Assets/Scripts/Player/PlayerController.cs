@@ -17,14 +17,18 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private bool isDead;
 
+    private Animator animator;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
         CheckGrounded();
+        UpdateAnimations();
     }
 
     private void CheckGrounded()
@@ -57,6 +61,13 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
 
         Debug.Log("Player died!");
+    }
+
+    private void UpdateAnimations()
+    {
+        animator.SetFloat("Speed",1f);
+        animator.SetBool("IsGrounded" , isGrounded);
+        animator.SetBool("IsJumping",rb.linearVelocity.y > 0.1f);
     }
 
     private void OnDrawGizmosSelected()
