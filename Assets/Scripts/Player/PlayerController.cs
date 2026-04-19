@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float jumpForce = 12f;
     [SerializeField] private int maxJumps = 2; // double jump
+    [SerializeField] private float lieFlatValue = -2.4f;
 
     [Header("Ground Check")]
     [SerializeField] private Transform groundCheck;
@@ -27,6 +28,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (isDead) return;
+
         CheckGrounded();
         UpdateAnimations();
     }
@@ -58,7 +61,22 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
-        rb.linearVelocity = Vector2.zero;
+        rb.linearVelocity = new Vector2(0f,rb.linearVelocity.y);
+
+        rb.bodyType = RigidbodyType2D.Kinematic; // disable rb so player stops
+
+        transform.position = new Vector3(
+             transform.position.x,
+             lieFlatValue,
+             transform.position.z
+            ); // setting player to lie down on ground 
+
+        animator.SetFloat("Speed", 0f);
+        animator.SetBool("IsGrounded", false);
+        animator.SetBool("IsJumping",false);
+        animator.SetTrigger("Die");
+
+        GameManager.Instance.GameOver();
 
         Debug.Log("Player died!");
     }

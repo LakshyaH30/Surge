@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\Work Files\\Unity Projects\\Surge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|e:\\work files\\unity projects\\surge\\assets\\scripts\\world\\groundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|e:\\work files\\unity projects\\surge\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|E:\\Work Files\\Unity Projects\\Surge\\assets\\scripts\\world\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|E:\\Work Files\\Unity Projects\\Surge\\assets\\scripts\\world\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|E:\\Work Files\\Unity Projects\\Surge\\assets\\scripts\\world\\groundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world\\groundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|e:\\work files\\unity projects\\surge\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|E:\\Work Files\\Unity Projects\\Surge\\assets\\scripts\\world\\scrollwithground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5AAAF22-8E1C-5080-45EC-FB5D2ABD1D3E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world\\scrollwithground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +38,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\World\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\World\\GameManager.cs",
+              "ToolTip": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\World\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\World\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T19:42:00.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\World\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\World\\Obstacle.cs",
+              "ToolTip": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\World\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\World\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T19:25:29.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GroundScroller.cs",
               "DocumentMoniker": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\World\\GroundScroller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\World\\GroundScroller.cs",
@@ -34,21 +70,32 @@
               "RelativeToolTip": "Assets\\Scripts\\World\\GroundScroller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T12:50:56.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T12:50:56.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwEMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-12T09:54:32.734Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScrollWithGround.cs",
+              "DocumentMoniker": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\World\\ScrollWithGround.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\World\\ScrollWithGround.cs",
+              "ToolTip": "E:\\Work Files\\Unity Projects\\Surge\\Assets\\Scripts\\World\\ScrollWithGround.cs",
+              "RelativeToolTip": "Assets\\Scripts\\World\\ScrollWithGround.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:50:07.072Z"
             }
           ]
         }

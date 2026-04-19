@@ -61,8 +61,11 @@
     <Analyzer Include="D:\UNITY\Hub\Editor\6000.3.11f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\World\GameManager.cs" />
+    <Compile Include="Assets\Scripts\World\Obstacle.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\World\GroundScroller.cs" />
+    <Compile Include="Assets\Scripts\World\ScrollWithGround.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
